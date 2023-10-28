@@ -38,7 +38,6 @@ const Greeting = ({ theme }) => {
         <div className="flex ml-[120px] items-center static">
           <div className="bg-[#E92577] rounded-full h-[320px] w-[320px] absolute mt-5 ml-5"></div>
           <img src={foto} className="h-[300px] z-10" />
-          
         </div>
       </div>
     </>

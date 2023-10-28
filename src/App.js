@@ -39,7 +39,7 @@ function App() {
   }, [theme]);
 
   return (
-    <div className="dark:bg-[#2A262B] bg-white">
+    <div className="dark:bg-[#2A262B] bg-white w-[1700px]">
       <Main
         clickHandle={clickHandle}
         changeTheme={changeTheme}

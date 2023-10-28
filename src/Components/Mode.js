@@ -1,9 +1,7 @@
-import { useTranslation } from "react-i18next";
-
 const Mode = ({ clickHandle, changeTheme, theme, language }) => {
   return (
     <>
-      <div className=" h-[38px]  mt-[65px] ml-[1064px] flex justify-center gap-2 z-10">
+      <div className="md:h-[38px]  md:mt-[65px] md:ml-[1064px] md:flex md:justify-center md:gap-2 md:z-10 flex ml-20">
         <label className="relative inline-flex items-center cursor-pointer">
           <input
             type="checkbox"
@@ -24,7 +22,7 @@ const Mode = ({ clickHandle, changeTheme, theme, language }) => {
               onClick={() => clickHandle("en")}
             >
               SWİTCH TO{" "}
-              <p className="text-[15px] text-[#777777] font-bold dark:text-white pl-2">
+              <p className="text-[15px] md:text-[#777777] font-bold dark:text-white pl-2">
                 ENGLISH
               </p>
             </button>
